@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navi Disha Swam Foundation</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+  <style>
+    body {
+      scroll-behavior: smooth;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    /* Top black bar */
+    .top-bar {
+      background: #111;
+      color: #fff;
+      padding: 5px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+    .top-bar-left i, .top-bar-right i {
+      margin-right: 5px;
+    }
+    .top-bar-right a {
+      color: #fff;
+      margin: 0 6px;
+      text-decoration: none;
+    }
+
+    /* Custom nav-bar */
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      background: #fff;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .logo img {
+      height: 60px;
+    }
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      user-select: none;
+    }
+    .menu {
+      display: flex;
+      gap: 25px;
+      font-weight: 500;
+    }
+    .menu a {
+      text-decoration: none;
+      color: #333;
+    }
+    .donate-btn {
+      background: #fdd835;
+      color: #000;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    }
+    .donate-btn i {
+      margin-right: 5px;
+    }
+
+    section {
+      padding-top: 80px;
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Black Bar -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <i class="fa-regular fa-envelope"></i> writetous@navidish.org &nbsp; | &nbsp;
+      <i class="fa-solid fa-phone"></i> +91 9876 543 210
+    </div>
+    <div class="top-bar-right">
+      <input type="text" placeholder="Search" style="padding: 4px 10px; border-radius: 15px; border: none;" />
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-x-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+
+  <!-- Custom Main Navigation -->
+  <div class="nav-bar">
+    <div class="logo">
+      <img src="logo.gif" alt="Navi Disha Swam Foundation Logo" />
+      <span class="logo-text">Navi Disha Swam Foundation</span>
+    </div>
+    <div class="menu">
+      <a href="#hero">Home</a>
+      <a href="#about">Who We Are?</a>
+      <a href="#mission">What We Do?</a>
+      <a href="#events">Get Involved</a>
+      <a href="#gallery">Resources</a>
+    </div>
+    <button class="donate-btn"><i class="fa-solid fa-heart"></i> Donate Now</button>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="bg-warning text-dark text-center py-5">
+    <div class="container">
+      <h1 class="display-4 fw-bold">Welcome to Navi Disha Swam Foundation</h1>
+      <p class="lead">Empowering lives through education, awareness, and compassion</p>
+      <a href="#about" class="btn btn-dark btn-lg mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="text-center">
+        Navi Disha Swam Foundation is a non-profit organization focused on community empowerment. We organize awareness campaigns, health check-ups, and educational drives to uplift marginalized sections of society.
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section id="mission" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Our Mission</h2>
+      <div class="row g-4">
+        <div class="col-md-4 text-center">
+          <i class="fa-solid fa-book-open fa-3x mb-3 text-warning"></i>
+          <h5>Education for All</h5>
+          <p>We provide free educational workshops and literacy drives for underprivileged children.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fa-solid fa-heart-pulse fa-3x mb-3 text-warning"></i>
+          <h5>Healthcare Awareness</h5>
+          <p>Organizing health checkups and AIDS awareness programs to build a healthier society.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <i class="fa-solid fa-users fa-3x mb-3 text-warning"></i>
+          <h5>Community Engagement</h5>
+          <p>We host events and festivals to involve the community and spread joy with purpose.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Our Work Section -->
+
+  <section id="work" class="py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Our Work</h2>
+        <p class="text-muted">What We Do</p>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h5>📚 Education</h5>
+            <p>Free tuition & learning centers for underprivileged children.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h5>🏥 Medical</h5>
+            <p>Organizing health camps & free medical check-ups for all.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h5>🌱 Environment</h5>
+            <p>Tree plantation drives and cleanliness awareness campaigns.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <h5>💼 Livelihood</h5>
+            <p>Skill development workshops and job-oriented training.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+   
+   <section id="gallery" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Gallery</h2>
+      <div class="row g-3">
+        <div class="col-md-4">
+          <img src="image1.png" alt="Education" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-4">
+          <img src="image2.png" alt="Medical Camp" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-4">
+          <img src="image3.png" alt="Tree Plantation" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-4">
+          <img src="image4.png" alt="Livelihood Support" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-4">
+          <img src="image5.png" alt="Community Event" class="img-fluid rounded" />
+        </div>
+        <div class="col-md-4">
+          <img src="image6.png" alt="Volunteers at Work" class="img-fluid rounded" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+
+  <section id="contact" class="py-5 text-center">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p class="text-muted">We’d love to hear from you</p>
+      <p>Email: <a href="mailto:info@navidisha.org">info@navidisha.org</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+    <div>
+      <p class="mb-1">&copy; 2025 Navi Disha Swam Foundation. All rights reserved.</p>
+      <p class="mb-1">Working together for a brighter, more sustainable future.</p>
+      <p>Email: <a href="mailto:info@navidisha.org" class="text-white text-decoration-underline">info@navidisha.org</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,1 +1,0 @@
-# sbpu-projects-ngo-template

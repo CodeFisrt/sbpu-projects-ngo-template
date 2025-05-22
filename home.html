@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navi Disha NGO</title>
+    <link rel="stylesheet" href="style_web.css">
+    <link rel="shortcut icon" href="images/png ngo logo(only logo)-01.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a320c525e8.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="Header">
+        <nav>
+            <a href="home.html"><img src="images/ngo logo(mini project 1)PNG-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="">WORK</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contactUs.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    <script>
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+
+    <div class="text_box">
+        <h1>Together We Can <span>Make a Change</span></h1>
+        <p>Navi Disha is a non-profit organization dedicated to transforming the lives of underprivileged children by providing them access to quality education, healthcare, and life opportunities. Our work focuses on breaking the cycle of poverty and empowering communities through sustainable development programs.</p>
+    
+        <button type="submit">Donate</button>
+    </div>
+    </section>
+
+    <section class="about-sec">
+        <div class="div-about">
+            <h1 class="title">ABOUT US</h1>
+            <p>In a world where opportunities are often unequal, Navi Disha was born out of a deep commitment to create positive change and empower the underserved. 
+                We are a grassroots NGO that believes every individual has the right to live with dignity, purpose, and hope. 
+                Navi Disha is not just an organization—it is a movement toward inclusive development and human upliftment.
+                Founded by passionate changemakers, Navi Disha aims to bridge the gap between potential and opportunity. 
+                With every initiative, we strive to create a ripple effect of change—one life, one community at a time.</p>
+            <div class="cards">
+                <div class="about-item">
+                    <h3>MISSION</h3>
+                        <hr>
+                            <p>At Navi Disha, our mission is to ignite hope, restore dignity, 
+                                and enable sustainable development by guiding individuals and communities towards a new direction of growth, empowerment, and self-reliance.
+                                We exist to address the deep-rooted social, economic, 
+                                and educational inequalities that hinder people from reaching their full potential. </p>
+                </div>
+                <div class="about-item">
+                    <h3>VISION</h3>
+                    <hr>
+                    <p>we envision a just, inclusive, and empowered society where every individual—regardless of their background—has the opportunity to lead a life of dignity, purpose, and potential. 
+                        We aim to create a future where children have access to quality education, women are uplifted and self-reliant, communities are healthy and self-sustaining, 
+                        and development is both equitable and environmentally conscious. </p>
+                </div>
+                <div class="about-item">
+                    <h3>INSPIRATION</h3>
+                    <hr>
+                    <p>The idea of Navi Disha was inspired by real stories of struggle,
+                        resilience, and hope. We observed how small efforts—like teaching a child,
+                        supporting a mother's small business, or offering health aid to the elderly—could bring about significant, lasting change.
+                        This realization led to the foundation of Navi Disha: a platform to nurture, uplift, and empower.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="programs">
+        <div class="container">
+    <h1 class="title">Our Programs – Making Real Change</h1>
+
+    <!-- Program 1 -->
+    <section class="program">
+        <div class="image-box">
+        <img src="images/19.jpeg" alt="Shiksha Disha">
+        </div>
+        <div class="content-box">
+        <h2 class="subtitle orange">Education Support</h2>
+        <h3 class="program-title">Shiksha Disha (Education Program)</h3>
+        <ul>
+            <li>After-school learning centers</li>
+            <li>Digital literacy programs for rural kids</li>
+            <li>Teacher training & capacity building</li>
+            <li>Mentorship for dropout prevention</li>
+        </ul>
+        <button class="donate-btn">Donate now →</button>
+        </div>
+    </section>
+
+    <!-- Program 2 -->
+    <section class="program reverse">
+        <div class="image-box">
+        <img src="images/16.jpeg" alt="Swasthya Disha">
+        </div>
+        <div class="content-box">
+        <h2 class="subtitle orange">Healthcare Initiatives</h2>
+        <h3 class="program-title">Swasthya Disha (Health & Wellness)</h3>
+        <ul>
+            <li>Regular health screening camps</li>
+            <li>Nutrition support (midday meals, supplements)</li>
+            <li>Menstrual hygiene awareness for adolescent girls</li>
+            <li>Mental health counseling for children & parents</li>
+        </ul>
+        <button class="donate-btn">Donate now →</button>
+        </div>
+    </section>
+
+    <!-- Program 3 -->
+    <section class="program">
+        <div class="image-box">
+        <img src="images/1.jpeg" alt="Kaushal Disha">
+        </div>
+        <div class="content-box">
+        <h2 class="subtitle orange">Livelihood Programs</h2>
+        <h3 class="program-title">Kaushal Disha (Skill & Livelihood)</h3>
+        <ul>
+            <li>Vocational training for women & youth</li>
+            <li>Entrepreneurship support & micro-financing</li>
+            <li>Financial literacy workshops</li>
+            <li>Digital marketing & freelancing courses</li>
+        </ul>
+        <button class="donate-btn">Donate now →</button>
+        </div>
+    </section>
+
+    <!-- Program 4 -->
+    <section class="program reverse">
+        <div class="image-box">
+        <img src="images/11.jpeg" alt="Paryavaran Disha">
+        </div>
+        <div class="content-box">
+        <h2 class="subtitle orange">Access to Environment</h2>
+        <h3 class="program-title">Paryavaran Disha (Environment Projects)</h3>
+        <ul>
+            <li>Community clean-up drives</li>
+            <li>Tree plantation & urban gardening</li>
+            <li>Waste management awareness</li>
+            <li>Eco-friendly product making workshops</li>
+        </ul>
+        <button class="donate-btn">Donate now →</button>
+        </div>
+    </section>
+    </div>
+    </section>
+
+    <section class="impact">
+        <h1 class="title">Our Impact</h1>
+
+        <div class="row">
+            <div class="impact-col">
+                <h1>1200+</h1>
+                <h3>Children Enrolled</h3>
+                <p>in education programs</p>
+            </div>
+
+            <div class="impact-col">
+                <h1>300+</h1>
+                <h3>Health Camps</h3>
+                <p>organized</p>
+            </div>
+
+            <div class="impact-col">
+                <h1>5000+</h1>
+                <h3>Nutritious Meals</h3>
+                <p>served</p>
+            </div>
+
+            <div class="impact-col">
+                <h1>200+</h1>
+                <h3>Women Enrolled</h3>
+                <p>in skill development</p>
+            </div>
+        </div>
+    </section>
+
+<section>
+    <div class="testimonials">
+        <h1 class="title">testimonials</h1>
+
+        <div class="row">
+            <div class="testimonials-col">
+                <div><p>“Navi Disha changed my daughter's life. Now she dreams big and studies with confidence.”</p>
+                <h4>- Rekha Devi, Beneficiary Mother</h4></div>
+            </div>
+
+            <div class="testimonials-col">
+                <div><p>“The team's dedication is inspiring. As a volunteer, I've learned the true meaning of giving back.”</p>
+                <h4>- Aarav Patel, Volunteer</h4></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-content">
+            <h3>Contact Us</h3>
+            <p>Email:navidisha@gmail.com</p>
+            <p>Phone No: 1234567890</p>
+            <p>Address: pune 123 street</p>
+        </div>
+        <div class="footer-content">
+            <h3>Quick Links</h3>
+                <ul class="list">
+                    <li><a href="">HOME</a></li>        <!--HOME PAGE KA LINK DAL'href'  -->
+                    <li><a href="">ABOUT US</a></li>    <!--ABOUT US PAGE KA LINK DAL 'href'  -->
+                    <li><a href="">WORK</a></li>        <!--WORK PAGE KA LINK DAL 'href'  -->
+                    <li><a href="">GALLERY</a></li>     <!--GALLERY PAGE KA LINK DAL 'href'  -->
+                    <li><a href="">CONTACT US</a></li>  <!--CONTECT US PAGE KA LINK DAL 'href'  -->
+            </ul>
+        </div>
+        <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul class="social-icons">
+                <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-square-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+        
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navi Dish Swam Foundation</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #222;
+    }
+    header {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+    header::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.6);
+      z-index: 1;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+    .hero-content h1 {
+      font-size: 4rem;
+      margin-bottom: 20px;
+    }
+    .hero-content p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+    .hero-content a {
+      text-decoration: none;
+      background-color: #ffc107;
+      padding: 12px 24px;
+      color: #000;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .about p {
+      font-size: 1.2rem;
+      line-height: 1.7;
+      text-align: justify;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero-content" data-aos="fade-up">
+      <h1>Navi Dish Swam Foundation</h1>
+      <p>Empowering through Education, Healthcare, Environment & Livelihood</p>
+      <a href="#about">Explore More</a>
+    </div>
+  </header>
+
+  <section id="about" class="about" data-aos="fade-up">
+    <h2 class="section-title">About Us</h2>
+    <p>
+      Navi Dish Swam Foundation is a non-profit organization dedicated to improving the lives of underprivileged communities. We focus on critical areas like education, healthcare, environmental conservation, and sustainable livelihoods to create a holistic impact. Our mission is to empower individuals by giving them the tools and opportunities to lead dignified lives.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Navi Dish Swam Foundation. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
